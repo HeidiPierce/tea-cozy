@@ -99,18 +99,18 @@ section {
 }
 .locations {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 .location {
   opacity: 1.0;
   flex-basis: 280px;
-  padding: 15px 20px 0;
-  flex-direction: row;
+  padding: 10px;
+  margin: 5px 20px;
+  flex-direction: column;
   background-color: black;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+
 }
 .location p {
   padding: 0 9px;
@@ -118,3 +118,16 @@ section {
 .locations-box h2 {
   padding-bottom: 25px;
 }
+/*
+.locations:first-child {
+  padding-left: 70px;
+  padding-right: 0;
+}
+.locations:nth-child(2) {
+  padding: 0;
+}
+.locations:last-child {
+  padding-right: 70px;
+  padding-left: 0;
+  }
+*/
